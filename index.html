@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Clothing Store</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <section class="product-gallery">
+        <!-- Row 1 -->
+        <article class="product-card">
+            <img src="tshirt.jpg" alt="T-Shirt">
+            <h2>Classic T-Shirt</h2>
+            <p>$20.00</p>
+            <button onclick="addToCart('Classic T-Shirt', 20)">Add to Cart</button>
+        </article>
+        <article class="product-card">
+            <img src="shorts.jpg" alt="Shorts">
+            <h2>Casual Shorts</h2>
+            <p>$25.00</p>
+            <button onclick="addToCart('Casual Shorts', 25)">Add to Cart</button>
+        </article>
+        <article class="product-card">
+            <img src="skirt.jpg" alt="Skirt">
+            <h2>Floral Skirt</h2>
+            <p>$30.00</p>
+            <button onclick="addToCart('Floral Skirt', 30)">Add to Cart</button>
+        </article>
+
+        <!-- Row 2 -->
+        <article class="product-card">
+            <img src="sweater.jpg" alt="Sweater">
+            <h2>Cozy Sweater</h2>
+            <p>$40.00</p>
+            <button onclick="addToCart('Cozy Sweater', 40)">Add to Cart</button>
+        </article>
+        <article class="product-card">
+            <img src="jackets.jpg" alt="Jacket">
+            <h2>Leather Jacket</h2>
+            <p>$100.00</p>
+            <button onclick="addToCart('Leather Jacket', 100)">Add to Cart</button>
+        </article>
+        <article class="product-card">
+            <img src="pants.jpg" alt="Jeans">
+            <h2>Blue Jeans</h2>
+            <p>$45.00</p>
+            <button onclick="addToCart('Blue Jeans', 45)">Add to Cart</button>
+        </article>
+
+        <!-- Row 3 -->
+        <article class="product-card">
+            <img src="hoodie.jpg" alt="Hoodie">
+            <h2>Comfortable Hoodie</h2>
+            <p>$35.00</p>
+            <button onclick="addToCart('Comfortable Hoodie', 35)">Add to Cart</button>
+        </article>
+        <article class="product-card">
+            <img src="dress.jpg" alt="Dress">
+            <h2>Summer Dress</h2>
+            <p>$55.00</p>
+            <button onclick="addToCart('Summer Dress', 55)">Add to Cart</button>
+        </article>
+        <article class="product-card">
+            <img src="formal.jpg" alt="Suit">
+            <h2>Formal Suit</h2>
+            <p>$150.00</p>
+            <button onclick="addToCart('Formal Suit', 150)">Add to Cart</button>
+        </article>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
